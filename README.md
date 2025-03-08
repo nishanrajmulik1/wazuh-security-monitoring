@@ -20,7 +20,7 @@ This project demonstrates how to deploy Wazuh for **security monitoring, log ana
 
 ## Technologies Used
 - **Wazuh** (SIEM & Security Monitoring)
-- **Ubuntu 22.04** (Wazuh Server & Kali Linux Target Machine)
+- **Ubuntu 22.04** (Wazuh Server, Kali Linux Attack & Ubuntu Target Machine)
 - **Windows 10/11** (FIM Target Machine)
 - **Hydra** (For brute-force attack simulation)
 - **Kibana & Elastic Stack** (Log analysis & dashboards)
