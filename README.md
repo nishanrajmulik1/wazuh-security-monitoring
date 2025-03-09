@@ -41,15 +41,15 @@ curl -sO https://packages.wazuh.com/4.8/wazuh-agent-linux.sh && sudo bash wazuh-
 - Modify ossec.conf to monitor C:\Users\Public\Documents.
 - Simulate unauthorized file changes.
 ![FIM](./screenshots/WinActiveAgent.png)
-![Detected](./screenshots/Created%20Testfile.png)
-![Detected](./screenshots/CreatedTestfilelogs.png)
+![Created](./screenshots/Created%20Testfile.png)
+![Logs](./screenshots/CreatedTestfilelogs.png)
 ![Deleted](./screenshots/Filedeleted.png)
 # Detect SSH Brute-Force Attacks
 - Simulate brute-force attacks using Hydra.
 ```bash
 hydra -l ubuntu -P /usr/share/wordlists/rockyou.txt <target-IP> ssh
 ```
-![Detected](./screenshots/simulatesshbruteforce.png)
+![Simulate](./screenshots/simulatesshbruteforce.png)
 ![Attacker](./screenshots/attackerip.png)
 - Detect attacks using Wazuh alerts.
 
